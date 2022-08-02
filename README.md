@@ -1,8 +1,4 @@
-**NEW!** Want to just `require` any ES module with zero setup? Try [`esm-hook`](https://github.com/proteriax/esm-hook).
-
-
-# node-fetch-commonjs
-
+# @replit/node-fetch
 
 [node-fetch](https://github.com/node-fetch/node-fetch) but in CommonJS format. This module is built from `node-fetch` directly.
 
@@ -13,7 +9,7 @@
 
 ## Differences
 
-1. You can `require("node-fetch-commonjs")` directly.
+1. You can `require("@replit/node-fetch")` directly.
 2. You will not see the `ExperimentalWarning: stream/web is an experimental feature` warning.
 3. It works on older Node.js versions that don’t support [requiring built-in modules with a `node:` prefix](https://github.com/node-fetch/node-fetch/issues/1367).
 
@@ -27,5 +23,5 @@ yarn
 ## Install
 
 ```bash
-yarn add node-fetch-commonjs
+yarn add @replit/node-fetch
 ```
